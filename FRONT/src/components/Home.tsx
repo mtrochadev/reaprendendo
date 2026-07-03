@@ -1,4 +1,5 @@
 import './Home.css'
+import { Link } from 'react-router-dom'
 
 function Home() {
 
@@ -9,7 +10,7 @@ function Home() {
           <p>Nome do usuario (Sem nome meme)</p>
           <input className='usuario-input' type="text" />
         </div>
-        <button className='btn'>Iniciar perguntas</button>
+        <Link to="/jogo" className='btn'>Iniciar perguntas</Link>
       </div>
     </>
   )
